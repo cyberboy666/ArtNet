@@ -72,7 +72,7 @@ public:
                     op_code = OpCode::Poll;
                     break;
                 }
-                case OPC(OpCode::Sync): {
+                case OpCode::Sync: {
                     if (callback_artsync) callback_artsync();
                     op_code = OpCode::Sync;
                     break;
